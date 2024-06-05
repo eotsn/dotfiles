@@ -1,0 +1,4 @@
+{{- if ne .chezmoi.os "darwin" }}
+.config/skhdrc/
+.config/yabairc/
+{{- end }}
