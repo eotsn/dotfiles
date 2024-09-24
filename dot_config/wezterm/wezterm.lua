@@ -35,7 +35,7 @@ end)
 
 local function SwitchToWorkspace()
   return wezterm.action_callback(function(window, pane)
-    local pfile = assert(io.popen("/opt/homebrew/bin/zoxide query --list", "r"))
+    local pfile = assert(io.popen("zoxide query --list", "r"))
     local paths = pfile:read "*a"
     pfile:close()
 
@@ -83,7 +83,7 @@ end
 
 config.keys = {
   { key = "o", mods = "SUPER", action = SwitchToWorkspace() },
-  { key = "g", mods = "SUPER", action = SpawnCommandInTemporaryTab { args = { "lazygit" } } },
+  { key = "u", mods = "SUPER", action = SpawnCommandInTemporaryTab { args = { "lazygit" } } },
   { key = "p", mods = "SUPER", action = wezterm.action.ShowLauncherArgs { flags = "FUZZY|WORKSPACES" } },
   { key = "Enter", mods = "SUPER", action = wezterm.action.ToggleFullScreen },
   { key = "Enter", mods = "META", action = wezterm.action.DisableDefaultAssignment },
