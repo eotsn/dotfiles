@@ -1,4 +1,5 @@
 ctrl + alt - return : /Applications/WezTerm.app/Contents/MacOS/wezterm
+ctrl + alt + cmd - return : /Users/eric.ottosson/.nix-profile/Applications/Emacs.app/Contents/MacOS/Emacs
 
 alt - 1 : yabai -m space --focus 1
 alt - 2 : yabai -m space --focus 2
