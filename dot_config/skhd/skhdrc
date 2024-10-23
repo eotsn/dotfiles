@@ -23,4 +23,4 @@ alt + shift - down  : yabai -m window --swap south
 alt + shift - up    : yabai -m window --swap north
 alt + shift - right : yabai -m window --swap east
 
-alt - f : yabai -m window --toggle zoom-parent
+alt + shift - f : yabai -m window --toggle zoom-parent
