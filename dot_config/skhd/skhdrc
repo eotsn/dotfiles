@@ -1,4 +1,6 @@
-ctrl + alt - return : /Applications/WezTerm.app/Contents/MacOS/wezterm
+cmd - return : /Users/eric.ottosson/.nix-profile/bin/emacsclient -a '' -c
+cmd + lalt - return : /opt/homebrew/bin/wezterm-gui
+
 ctrl + alt + cmd - return : /Users/eric.ottosson/.nix-profile/Applications/Emacs.app/Contents/MacOS/Emacs
 
 alt - 1 : yabai -m space --focus 1
@@ -6,21 +8,5 @@ alt - 2 : yabai -m space --focus 2
 alt - 3 : yabai -m space --focus 3
 alt - 4 : yabai -m space --focus 4
 alt - 5 : yabai -m space --focus 5
-
-alt + shift - 1 : yabai -m window --space 1
-alt + shift - 2 : yabai -m window --space 2
-alt + shift - 3 : yabai -m window --space 3
-alt + shift - 4 : yabai -m window --space 4
-alt + shift - 5 : yabai -m window --space 5
-
-alt - left  : yabai -m window --focus west
-alt - down  : yabai -m window --focus south
-alt - up    : yabai -m window --focus north
-alt - right : yabai -m window --focus east
-
-alt + shift - left  : yabai -m window --swap west
-alt + shift - down  : yabai -m window --swap south
-alt + shift - up    : yabai -m window --swap north
-alt + shift - right : yabai -m window --swap east
 
 alt + shift - f : yabai -m window --toggle zoom-parent
